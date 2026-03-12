@@ -118,7 +118,7 @@ Raw Data
    |
    v
 8. Inference Demo
-   +-- 10 random test-set rows passed through XGBoost; predictions vs. ground truth exported to file1.csv
+   +-- 10 random test-set rows passed through XGBoost; predictions vs. ground truth.
 ```
 
 ---
