@@ -6,8 +6,9 @@ Every year, thousands of children miss out on critical autism support simply bec
 
 This project uses machine learning to build a fast, reliable pre-screening tool that can flag children who may need further evaluation, based on a 10-question behavioral checklist and basic demographic information. Trained on 2,179 pediatric records, the best model correctly identified potential ASD cases with 99.1% accuracy, helping get the right children in front of specialists sooner.
 
----
+<img width="251" height="295" alt="image" src="https://github.com/user-attachments/assets/0746a876-77ab-4cf5-9f22-1a4928e12c85" />
 
+---
 ## Problem Statement
 
 Clinical diagnosis of ASD is time-intensive, expensive, and requires specialist expertise that is unevenly distributed across regions and socioeconomic groups. Validated behavioral screening tools like the Q-CHAT-10 exist, but their results are still interpreted manually or left unprocessed. The opportunity is to automate the classification step: given a completed Q-CHAT-10 form and basic demographic information, predict whether a child is likely to have ASD, enabling faster triage and earlier referral. The challenge is class imbalance (the dataset skews toward positive cases) and injected label noise (3% of labels were randomly flipped to simulate real-world annotation error), which requires robust preprocessing and model selection.
